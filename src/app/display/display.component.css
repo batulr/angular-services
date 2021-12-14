@@ -1,0 +1,23 @@
+.dmain {
+  box-sizing: border-box;
+  border: 2px solid #00ff;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+}
+
+.dmain h2 {
+  font-size: 30px;
+  border-bottom: 1px solid #00ff;
+  margin-top: 5px;
+  padding-bottom: 6px;
+}
+
+.main li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+<div *ngIf="emp" class="vmain">
+  <h2>
+    Details of <span class="empn">{{ emp.name }} </span>
+  </h2>
+  <div class="holders"><span>id: </span>{{ emp.id }}</div>
+  <div class="holders">
+    <label for="hero-name">Emp name: </label>
+    <input id="emp-name" [(ngModel)]="emp.name" placeholder="name" />
+  </div>
+  <div class="holders"><span>Phone Number: </span>{{ emp.phn }}</div>
+  <div class="holders"><span>Salary: </span>{{ emp.salary }}</div>
+  <div class="holders"><span>Designation: </span>{{ emp.designation }}</div>
+</div>

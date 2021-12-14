@@ -1,0 +1,30 @@
+.vmain {
+  box-sizing: border-box;
+  border: 2px solid #000;
+  margin: 0 auto;
+  width: 30%;
+  margin-top: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.vmain h2 {
+  border-bottom: 1px solid #000;
+  margin-top: 5px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+.vmain h2 .empn {
+  color: #00ff;
+}
+
+.holders {
+  font-size: 17px;
+  margin: 10px;
+}
+
+.holders span,
+.holders label {
+  text-transform: capitalize;
+  font-weight: 700;
+}

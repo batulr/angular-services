@@ -1,0 +1,12 @@
+<div class="dmain">
+  <h2>Employees</h2>
+  <div class="main">
+    <ul>
+      <li *ngFor="let emp of emps" (click)="onSelect(emp)">
+        <span class="names">{{ emp.name }}</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<app-view [emp]="selectedEmp"></app-view>
